@@ -1,0 +1,43 @@
+title:string=walls
+author:string=nbt2ascii
+mats:table={
+  i:string=minecraft:iron_bars
+  n:string=minecraft:nether_brick
+  q:string=minecraft:quartz_stairs
+}
+startPoint:list=[
+  number=90
+  number=1
+  number=1
+  string=^
+]
+defaultDropPoint:list=[
+  number=44
+  number=0
+]
+levels:list=[
+  table={
+    name:string=level 1
+    blocks:string=@github
+    matCounts:table={
+      minecraft:nether_brick:number=23
+      minecraft:quartz_stairs:number=66
+    }
+  }
+  table={
+    name:string=level 2
+    blocks:string=@github
+    matCounts:table={
+      minecraft:iron_bars:number=66
+      minecraft:nether_brick:number=23
+    }
+  }
+  table={
+    name:string=level 3
+    blocks:string=@github
+    matCounts:table={
+      minecraft:iron_bars:number=66
+      minecraft:nether_brick:number=23
+    }
+  }
+]
